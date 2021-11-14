@@ -1,10 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 12 17:04:27 2021
-
-@author: lenovo
-"""
-
+# -*- coding: 使用图乘法计算在单一集中荷载作用下的悬臂梁挠度与转角
 def squire(F,x1):#面积
     ω=x1**2*F*1/2#ω为集中荷载F作用在x1处产生的弯矩图的面积
     return ω
